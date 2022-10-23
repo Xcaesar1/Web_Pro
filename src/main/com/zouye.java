@@ -20,8 +20,6 @@ public class zouye extends HttpServlet {
         list.add(new entity("5.jpeg", "王五", 23, "男"));
         list.add(new entity("6.jpeg", "赵六", 20, "男"));
         System.out.println("hello");
-        System.out.println("master");
-        System.out.println("hot-fix");
         req.setAttribute("list", list);
         req.getRequestDispatcher("zouye.jsp").forward(req, resp);
     }
